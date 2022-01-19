@@ -1,0 +1,22 @@
+POST http://localhost:8080/query
+Content-Type: application/json
+
+{
+  "poolId": 1,
+  "percentile": 30
+}
+
+###
+POST http://localhost:8080/append
+Content-Type: application/json
+
+{
+  "poolId": 1,
+  "poolValues": [
+    1, 2.0, 3, 4, 5
+  ]
+}
+
+
+
+
